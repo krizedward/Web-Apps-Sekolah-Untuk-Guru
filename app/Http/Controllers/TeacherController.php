@@ -16,8 +16,8 @@ class TeacherController extends Controller
     {
         //dummy
         $list_guru = Teacher::all();
-        return dd($list_guru);
-        // return view('school.index', compact('list_sekolah'));
+        // return dd($list_guru);
+        return view('teacher.index', compact('list_guru'));
     }
 
     /**
@@ -60,7 +60,9 @@ class TeacherController extends Controller
      */
     public function edit(Teacher $teacher)
     {
-        //
+        //dummy
+        $teacher = 'edit page '.$teacher.' nama';
+        return dd($teacher);
     }
 
     /**
