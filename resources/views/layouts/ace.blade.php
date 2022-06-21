@@ -155,7 +155,7 @@
 								<b class="arrow"></b>
 							</li>
 							<li class="">
-								<a href="#">
+								<a href="{{ route('kelas.index') }}">
 									<i class="menu-icon fa fa-caret-right"></i>
 									Kelas
 								</a>

@@ -15,8 +15,9 @@ class ClassedController extends Controller
     public function index()
     {
         //dummy
-        $classed = Classed::all();
-        return dd($classed);
+        $list_kelas = Classed::all();
+        // return dd($classed);
+        return view('classed.index', compact('list_kelas'));
     }
 
     /**
