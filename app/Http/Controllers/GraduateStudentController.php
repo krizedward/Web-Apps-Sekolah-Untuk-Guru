@@ -16,8 +16,8 @@ class GraduateStudentController extends Controller
     {
         //dummy
         $list_lulusan = GraduateStudent::all();
-        return dd($list_lulusan);
-        // return view('school.index', compact('list_lulusan'));
+        // return dd($list_lulusan);
+        return view('graduate_student.index', compact('list_lulusan'));
     }
 
     /**
@@ -60,7 +60,9 @@ class GraduateStudentController extends Controller
      */
     public function edit(GraduateStudent $graduateStudent)
     {
-        //
+        //dummy
+        $sekolah = 'edit page '.$graduateStudent;
+        return dd($graduateStudent);
     }
 
     /**

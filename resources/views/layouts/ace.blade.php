@@ -182,6 +182,13 @@
 								</a>
 								<b class="arrow"></b>
 							</li>
+							<li class="">
+								<a href="{{ route('lulusan.index') }}">
+									<i class="menu-icon fa fa-caret-right"></i>
+									Lulusan
+								</a>
+								<b class="arrow"></b>
+							</li>
 							<!-- <li class="">
 								<a href="#">
 									<i class="menu-icon fa fa-caret-right"></i>

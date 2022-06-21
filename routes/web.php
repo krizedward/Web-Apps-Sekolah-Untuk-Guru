@@ -23,3 +23,4 @@ Route::resource('sekolah', 'SchoolController');
 Route::resource('guru', 'TeacherController');
 Route::resource('murid', 'StudentController');
 Route::resource('prestasi', 'AwardStudentController');
+Route::resource('lulusan', 'GraduateStudentController');
