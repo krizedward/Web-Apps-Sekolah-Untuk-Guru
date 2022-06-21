@@ -3,7 +3,7 @@
 	<head>
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 		<meta charset="utf-8" />
-		<title>TB.Jaya Lestari - Dev Mode</title>
+		<title>CPG Application - Dev Mode</title>
 
 		<meta name="description" content="frequently asked questions using tabs and accordions" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
@@ -68,7 +68,7 @@
 						<small>
 							<!-- icon website -->
 							<!-- <i class="fa fa-leaf"></i> -->
-							TB. Jaya Lestari
+							CPG Application
 						</small>
 					</a>
 				</div>
@@ -79,7 +79,7 @@
 								<img class="nav-user-photo" src="{{ asset('assets/images/avatars/user.jpg') }}" alt="Jason's Photo" />
 								<span class="user-info">
 									<small>Selamat Datang,</small>
-									Pak Bos
+									{{ Auth::user()->name }}
 								</span>
 								<i class="ace-icon fa fa-caret-down"></i>
 							</a>
@@ -100,10 +100,14 @@
 								</li>
 								<li class="divider"></li> -->
 								<li>
-									<a href="../index.html">
+									<a href="{{ route('logout') }}" onclick="event.preventDefault();
+                                                     document.getElementById('logout-form').submit();">
 										<i class="ace-icon fa fa-power-off"></i>
 										Logout
 									</a>
+									<form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                                        @csrf
+                                    </form>
 								</li>
 							</ul>
 						</li>
@@ -126,14 +130,14 @@
 				<ul class="nav nav-list">
 					<!-- aktif -->
 					<li class="">
-						<a href="{{ route('main') }}">
+						<a href="#">
 							<i class="menu-icon fa fa-tachometer"></i>
 							<span class="menu-text"> Dashboard </span>
 						</a>
 						<b class="arrow"></b>
 					</li>
 					<!-- aktif -->
-					<li class="">
+					<li class="active open">
 						<a href="#" class="dropdown-toggle">
 							<i class="menu-icon fa fa-list-alt"></i>
 							<span class="menu-text">
@@ -143,17 +147,24 @@
 						</a>
 						<b class="arrow"></b>
 						<ul class="submenu">
-							<li class="">
-								<a href="{{ route('product.index') }}">
+							<li class="active">
+								<a href="#">
 									<i class="menu-icon fa fa-caret-right"></i>
-									Barang
+									Guru
 								</a>
 								<b class="arrow"></b>
 							</li>
 							<li class="">
-								<a href="/categories">
+								<a href="#">
 									<i class="menu-icon fa fa-caret-right"></i>
-									Kategori
+									Kelas
+								</a>
+								<b class="arrow"></b>
+							</li>
+							<li class="">
+								<a href="#">
+									<i class="menu-icon fa fa-caret-right"></i>
+									Sekolah
 								</a>
 								<b class="arrow"></b>
 							</li>
@@ -186,6 +197,41 @@
 								<b class="arrow"></b>
 							</li> -->
 						</ul>
+					</li>
+					<li class="">
+						<a href="#">
+							<i class="menu-icon fa fa-tachometer"></i>
+							<span class="menu-text"> Perstasi Murid </span>
+						</a>
+						<b class="arrow"></b>
+					</li>
+					<li class="">
+						<a href="#">
+							<i class="menu-icon fa fa-tachometer"></i>
+							<span class="menu-text"> Daftar Murid </span>
+						</a>
+						<b class="arrow"></b>
+					</li>
+					<li class="">
+						<a href="#">
+							<i class="menu-icon fa fa-tachometer"></i>
+							<span class="menu-text"> Lulusan Murid </span>
+						</a>
+						<b class="arrow"></b>
+					</li>
+					<li class="">
+						<a href="#">
+							<i class="menu-icon fa fa-tachometer"></i>
+							<span class="menu-text"> Surat Masuk </span>
+						</a>
+						<b class="arrow"></b>
+					</li>
+					<li class="">
+						<a href="#">
+							<i class="menu-icon fa fa-tachometer"></i>
+							<span class="menu-text"> Surat Keluar </span>
+						</a>
+						<b class="arrow"></b>
 					</li>
 					<li class="">
 						<a href="#">
