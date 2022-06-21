@@ -16,8 +16,8 @@ class StudentController extends Controller
     {
         //dummy
         $list_murid = Student::all();
-        return dd($list_murid);
-        // return view('teacher.index', compact('list_murid'));
+        // return dd($list_murid);
+        return view('student.index', compact('list_murid'));
     }
 
     /**
@@ -60,7 +60,9 @@ class StudentController extends Controller
      */
     public function edit(Student $student)
     {
-        //
+        //dummy
+        $teacher = 'edit page '.$student.' nama';
+        return dd($student);
     }
 
     /**

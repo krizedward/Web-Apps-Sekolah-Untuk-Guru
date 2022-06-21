@@ -168,6 +168,13 @@
 								</a>
 								<b class="arrow"></b>
 							</li>
+							<li class="">
+								<a href="{{ route('murid.index') }}">
+									<i class="menu-icon fa fa-caret-right"></i>
+									Murid
+								</a>
+								<b class="arrow"></b>
+							</li>
 							<!-- <li class="">
 								<a href="#">
 									<i class="menu-icon fa fa-caret-right"></i>
