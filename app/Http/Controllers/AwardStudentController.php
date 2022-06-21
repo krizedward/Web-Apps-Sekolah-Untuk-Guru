@@ -14,7 +14,10 @@ class AwardStudentController extends Controller
      */
     public function index()
     {
-        //
+        //dummy
+        $list_prestasi = AwardStudent::all();
+        // return dd($list_murid);
+        return view('award_student.index', compact('list_prestasi'));
     }
 
     /**

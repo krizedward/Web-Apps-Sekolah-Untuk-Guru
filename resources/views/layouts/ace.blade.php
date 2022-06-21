@@ -175,6 +175,13 @@
 								</a>
 								<b class="arrow"></b>
 							</li>
+							<li class="">
+								<a href="{{ route('prestasi.index') }}">
+									<i class="menu-icon fa fa-caret-right"></i>
+									Prestasi
+								</a>
+								<b class="arrow"></b>
+							</li>
 							<!-- <li class="">
 								<a href="#">
 									<i class="menu-icon fa fa-caret-right"></i>
