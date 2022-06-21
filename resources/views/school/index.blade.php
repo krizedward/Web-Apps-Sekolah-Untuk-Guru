@@ -58,7 +58,7 @@
 			</thead>
 			
             <tbody>
-				@foreach($list_kelas as $data)
+				@foreach($list_sekolah as $data)
 				<tr>
 					<td class="center">
 			    		<label class="pos-rel">

@@ -16,7 +16,8 @@ class SchoolController extends Controller
     {
         //dummy
         $list_sekolah = School::all();
-        return dd($list_sekolah);
+        // return dd($list_sekolah);
+        return view('school.index', compact('list_sekolah'));
     }
 
     /**
@@ -59,7 +60,9 @@ class SchoolController extends Controller
      */
     public function edit(School $school)
     {
-        //
+        //dummy
+        $sekolah = 'edit page '.$school;
+        return dd($sekolah);
     }
 
     /**
