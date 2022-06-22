@@ -219,7 +219,54 @@
 							</li> -->
 						</ul>
 					</li>
-					<li class="">
+					<li class="active open">
+						<a href="#" class="dropdown-toggle">
+							<i class="menu-icon fa fa-list-alt"></i>
+							<span class="menu-text">
+								Dokumen Control
+							</span>
+							<b class="arrow fa fa-angle-down"></b>
+						</a>
+						<b class="arrow"></b>
+						<ul class="submenu">
+							<li class="">
+								<a href="{{ route('surat.index') }}">
+									<i class="menu-icon fa fa-caret-right"></i>
+									Surat
+								</a>
+								<b class="arrow"></b>
+							</li>
+							<!-- <li class="">
+								<a href="#">
+									<i class="menu-icon fa fa-caret-right"></i>
+									Sales
+								</a>
+								<b class="arrow"></b>
+							</li>
+							<li class="">
+								<a href="#">
+									<i class="menu-icon fa fa-caret-right"></i>
+									Supplies
+								</a>
+								<b class="arrow"></b>
+							</li>
+							<li class="">
+								<a href="#">
+									<i class="menu-icon fa fa-caret-right"></i>
+									Pembayaran
+								</a>
+								<b class="arrow"></b>
+							</li>
+							<li class="">
+								<a href="#">
+									<i class="menu-icon fa fa-caret-right"></i>
+									Satuan
+								</a>
+								<b class="arrow"></b>
+							</li> -->
+						</ul>
+					</li>
+					<!-- <li class="">
 						<a href="#">
 							<i class="menu-icon fa fa-tachometer"></i>
 							<span class="menu-text"> Perstasi Murid </span>
@@ -260,7 +307,7 @@
 							<span class="menu-text"> Petunjuk </span>
 						</a>
 						<b class="arrow"></b>
-					</li>
+					</li> -->
 				</ul><!-- /.nav-list -->
 
 				<div class="sidebar-toggle sidebar-collapse" id="sidebar-collapse">

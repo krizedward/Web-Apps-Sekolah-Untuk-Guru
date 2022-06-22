@@ -16,8 +16,8 @@ class LetterController extends Controller
     {
         //dummy
         $list_surat = Letter::all();
-        return dd($list_surat);
-        // return view('school.index', compact('list_sekolah'));
+        // return dd($list_surat);
+        return view('letter.index', compact('list_surat'));
     }
 
     /**
