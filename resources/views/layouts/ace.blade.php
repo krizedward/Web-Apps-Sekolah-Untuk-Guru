@@ -3,7 +3,7 @@
 	<head>
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 		<meta charset="utf-8" />
-		<title>CPG Application - Dev Mode</title>
+		<title>CPG Application | @yield('judul')</title>
 
 		<meta name="description" content="frequently asked questions using tabs and accordions" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
@@ -68,7 +68,7 @@
 						<small>
 							<!-- icon website -->
 							<!-- <i class="fa fa-leaf"></i> -->
-							CPG Application
+							CPG Application - Digital Filing
 						</small>
 					</a>
 				</div>
@@ -130,14 +130,14 @@
 				<ul class="nav nav-list">
 					<!-- aktif -->
 					<li class="">
-						<a href="#">
+						<a href="{{ route('home') }}">
 							<i class="menu-icon fa fa-tachometer"></i>
 							<span class="menu-text"> Dashboard </span>
 						</a>
 						<b class="arrow"></b>
 					</li>
 					<!-- aktif -->
-					<li class="active open">
+					<li class="">
 						<a href="#" class="dropdown-toggle">
 							<i class="menu-icon fa fa-list-alt"></i>
 							<span class="menu-text">
@@ -165,27 +165,6 @@
 								<a href="{{ route('sekolah.index') }}">
 									<i class="menu-icon fa fa-caret-right"></i>
 									Sekolah
-								</a>
-								<b class="arrow"></b>
-							</li>
-							<li class="">
-								<a href="{{ route('murid.index') }}">
-									<i class="menu-icon fa fa-caret-right"></i>
-									Murid
-								</a>
-								<b class="arrow"></b>
-							</li>
-							<li class="">
-								<a href="{{ route('prestasi.index') }}">
-									<i class="menu-icon fa fa-caret-right"></i>
-									Prestasi
-								</a>
-								<b class="arrow"></b>
-							</li>
-							<li class="">
-								<a href="{{ route('lulusan.index') }}">
-									<i class="menu-icon fa fa-caret-right"></i>
-									Lulusan
 								</a>
 								<b class="arrow"></b>
 							</li>
@@ -219,7 +198,87 @@
 							</li> -->
 						</ul>
 					</li>
-					<li class="active open">
+					<li class="">
+						<a href="#" class="dropdown-toggle">
+							<i class="menu-icon fa fa fa-users"></i>
+							<span class="menu-text">
+								Murid
+							</span>
+							<b class="arrow fa fa-angle-down"></b>
+						</a>
+						<b class="arrow"></b>
+						<ul class="submenu">
+							<li class="">
+								<a href="{{ route('murid.index') }}">
+									<i class="menu-icon fa fa-caret-right"></i>
+									Tabel Data
+								</a>
+								<b class="arrow"></b>
+							</li>
+							<li class="">
+								<a href="#">
+									<i class="menu-icon fa fa-caret-right"></i>
+									Tambah Data
+								</a>
+								<b class="arrow"></b>
+							</li>
+						</ul>
+					</li>
+					<li class="">
+						<a href="#" class="dropdown-toggle">
+							<i class="menu-icon fa fa fa-trophy"></i>
+							<span class="menu-text">
+								Prestasi
+							</span>
+							<b class="arrow fa fa-angle-down"></b>
+						</a>
+						<b class="arrow"></b>
+						<ul class="submenu">
+							<li class="">
+								<a href="{{ route('prestasi.index') }}">
+									<i class="menu-icon fa fa-caret-right"></i>
+									Tabel Data
+								</a>
+								<b class="arrow"></b>
+							</li>
+							<li class="">
+								<a href="#">
+									<i class="menu-icon fa fa-caret-right"></i>
+									Tambah Data
+								</a>
+								<b class="arrow"></b>
+							</li>
+						</ul>
+					</li>
+
+					<li class="">
+						<a href="#" class="dropdown-toggle">
+							<i class="menu-icon fa fa fa-graduation-cap"></i>
+							<span class="menu-text">
+								Lulusan
+							</span>
+							<b class="arrow fa fa-angle-down"></b>
+						</a>
+						<b class="arrow"></b>
+						<ul class="submenu">
+							<li class="">
+								<a href="{{ route('lulusan.index') }}">
+									<i class="menu-icon fa fa-caret-right"></i>
+									Tabel Data
+								</a>
+								<b class="arrow"></b>
+							</li>
+							<li class="">
+								<a href="#">
+									<i class="menu-icon fa fa-caret-right"></i>
+									Tambah Data
+								</a>
+								<b class="arrow"></b>
+							</li>
+						</ul>
+					</li>
+					
+					<li class="">
 						<a href="#" class="dropdown-toggle">
 							<i class="menu-icon fa fa-list-alt"></i>
 							<span class="menu-text">
@@ -402,8 +461,8 @@
 				<div class="footer-inner">
 					<div class="footer-content">
 						<span class="bigger-120">
-						<span class="blue bolder">Pro</span>
-							Application &copy; 2022
+						<span class="blue bolder">PT.</span>
+							Citra Prestasi Gemilang &copy; 2022
 						</span>
 					</div>
 				</div>

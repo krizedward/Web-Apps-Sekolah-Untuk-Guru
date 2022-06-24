@@ -75,7 +75,7 @@
 	<head>
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 		<meta charset="utf-8" />
-		<title>Login Page - Ace Admin</title>
+		<title>CPG Application | Login</title>
 
 		<meta name="description" content="User login page" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
@@ -128,10 +128,11 @@
 								<div id="login-box" class="login-box visible widget-box no-border">
 									<div class="widget-body">
 										<div class="widget-main">
-											<h4 class="header blue lighter bigger">
-												<i class="ace-icon fa fa-key green"></i>
-												Please Enter Your Information
-											</h4>
+											<h6 class="center header blue lighter bigger">
+												<!-- <i class="ace-icon fa fa-key green"></i> -->
+												Username : admin@admin.com <br>
+												Password : 123456
+											</h6>
 
 											<div class="space-6"></div>
 
@@ -333,7 +334,7 @@
 								</div><!-- /.signup-box -->
 							</div><!-- /.position-relative -->
 
-							<div class="navbar-fixed-top align-right">
+							<!-- <div class="navbar-fixed-top align-right">
 								<br />
 								&nbsp;
 								<a id="btn-login-dark" href="#">Dark</a>
@@ -346,7 +347,7 @@
 								&nbsp;
 								<a id="btn-login-light" href="#">Light</a>
 								&nbsp; &nbsp; &nbsp;
-							</div>
+							</div> -->
 						</div>
 					</div><!-- /.col -->
 				</div><!-- /.row -->
@@ -361,8 +362,8 @@
 		<!-- <![endif]-->
 
 		<!--[if IE]>
-<script src="assets/js/jquery-1.11.3.min.js"></script>
-<![endif]-->
+	<script src="assets/js/jquery-1.11.3.min.js"></script>
+	<![endif]-->
 		<script type="text/javascript">
 			if('ontouchstart' in document.documentElement) document.write("<script src='{{ asset('assets/js/jquery.mobile.custom.min.js') }}'>"+"<"+"/script>");
 		</script>

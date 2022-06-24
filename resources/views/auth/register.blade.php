@@ -79,7 +79,7 @@
 	<head>
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 		<meta charset="utf-8" />
-		<title>Login Page - Ace Admin</title>
+		<title>CPG Application | Daftar Akun</title>
 
 		<meta name="description" content="User login page" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
@@ -208,7 +208,7 @@
 								</div><!-- /.signup-box -->
 							</div><!-- /.position-relative -->
 
-							<div class="navbar-fixed-top align-right">
+							<!-- <div class="navbar-fixed-top align-right">
 								<br />
 								&nbsp;
 								<a id="btn-login-dark" href="#">Dark</a>
@@ -221,7 +221,7 @@
 								&nbsp;
 								<a id="btn-login-light" href="#">Light</a>
 								&nbsp; &nbsp; &nbsp;
-							</div>
+							</div> -->
 						</div>
 					</div><!-- /.col -->
 				</div><!-- /.row -->

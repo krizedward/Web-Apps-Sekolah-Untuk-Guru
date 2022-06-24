@@ -1,5 +1,7 @@
 @extends('layouts.ace')
 
+@section('judul' , 'Beranda')
+
 @section('breadcrumbs')
 <div class="breadcrumbs ace-save-state" id="breadcrumbs">
 	<ul class="breadcrumb">
@@ -43,7 +45,7 @@
 			<li class="active">
 				<a data-toggle="tab" href="#faq-tab-1">
 					<i class="blue ace-icon fa fa-question-circle bigger-120"></i>
-					Panduan
+					Fitur
 				</a>
 			</li>
 			<!-- <li>
@@ -64,12 +66,12 @@
 							<a href="#faq-1-1" data-parent="#faq-list-1" data-toggle="collapse" class="accordion-toggle collapsed">
 								<i class="ace-icon fa fa-chevron-left pull-right" data-icon-hide="ace-icon fa fa-chevron-down" data-icon-show="ace-icon fa fa-chevron-left"></i>
 								<i class="ace-icon fa fa-star bigger-130"></i>
-								&nbsp; Program Gudang - Master Barang
+								&nbsp; Master Data
 							</a>
 						</div>
 						<div class="panel-collapse collapse" id="faq-1-1">
 							<div class="panel-body">
-								Mengelola data barang (menambahkan, mengengubah, dan menghapus).
+								Mengelola data guru, sekolah, dan kelas (fitur hanya terlihat oleh admin saja).
 							</div>
 						</div>
 					</div>
@@ -78,12 +80,68 @@
 							<a href="#faq-1-2" data-parent="#faq-list-1" data-toggle="collapse" class="accordion-toggle collapsed">
 								<i class="ace-icon fa fa-chevron-left pull-right" data-icon-hide="ace-icon fa fa-chevron-down" data-icon-show="ace-icon fa fa-chevron-left"></i>
 								<i class="ace-icon fa fa-star bigger-130"></i>
-								&nbsp; Program Gudang - Master Kategori
+								&nbsp; Murid
 							</a>
 						</div>
 						<div class="panel-collapse collapse" id="faq-1-2">
 							<div class="panel-body">
-								Mengelola data kategori (menambahkan, mengengubah, dan menghapus).
+								Mengelola data murid (menambahkan, mengengubah, dan menghapus).
+							</div>
+						</div>
+					</div>
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							<a href="#faq-1-3" data-parent="#faq-list-1" data-toggle="collapse" class="accordion-toggle collapsed">
+								<i class="ace-icon fa fa-chevron-left pull-right" data-icon-hide="ace-icon fa fa-chevron-down" data-icon-show="ace-icon fa fa-chevron-left"></i>
+								<i class="ace-icon fa fa-star bigger-130"></i>
+								&nbsp; Perestasi
+							</a>
+						</div>
+						<div class="panel-collapse collapse" id="faq-1-3">
+							<div class="panel-body">
+								Mengelola data perestasi murid (menambahkan, mengengubah, dan menghapus).
+							</div>
+						</div>
+					</div>
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							<a href="#faq-1-4" data-parent="#faq-list-1" data-toggle="collapse" class="accordion-toggle collapsed">
+								<i class="ace-icon fa fa-chevron-left pull-right" data-icon-hide="ace-icon fa fa-chevron-down" data-icon-show="ace-icon fa fa-chevron-left"></i>
+								<i class="ace-icon fa fa-star bigger-130"></i>
+								&nbsp; Perestasi
+							</a>
+						</div>
+						<div class="panel-collapse collapse" id="faq-1-4">
+							<div class="panel-body">
+								Mengelola data perestasi murid (menambahkan, mengengubah, dan menghapus).
+							</div>
+						</div>
+					</div>
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							<a href="#faq-1-5" data-parent="#faq-list-1" data-toggle="collapse" class="accordion-toggle collapsed">
+								<i class="ace-icon fa fa-chevron-left pull-right" data-icon-hide="ace-icon fa fa-chevron-down" data-icon-show="ace-icon fa fa-chevron-left"></i>
+								<i class="ace-icon fa fa-star bigger-130"></i>
+								&nbsp; Lulusan
+							</a>
+						</div>
+						<div class="panel-collapse collapse" id="faq-1-5">
+							<div class="panel-body">
+								Mengelola data lulusan murid (menambahkan, mengengubah, dan menghapus).
+							</div>
+						</div>
+					</div>
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							<a href="#faq-1-6" data-parent="#faq-list-1" data-toggle="collapse" class="accordion-toggle collapsed">
+								<i class="ace-icon fa fa-chevron-left pull-right" data-icon-hide="ace-icon fa fa-chevron-down" data-icon-show="ace-icon fa fa-chevron-left"></i>
+								<i class="ace-icon fa fa-star bigger-130"></i>
+								&nbsp; Dokumen Control
+							</a>
+						</div>
+						<div class="panel-collapse collapse" id="faq-1-6">
+							<div class="panel-body">
+								Mengelola data surat (menambahkan, mengengubah, dan menghapus).
 							</div>
 						</div>
 					</div>
