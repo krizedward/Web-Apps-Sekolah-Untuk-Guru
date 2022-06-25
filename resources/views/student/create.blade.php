@@ -34,32 +34,74 @@
 	<div class="col-xs-12">
 		<!-- PAGE CONTENT BEGINS -->
 		<form class="form-horizontal" role="form">
-			<!-- kode -->
+			<!-- nis -->
 			<div class="form-group">
-				<label class="col-sm-3 control-label no-padding-right" for="form-field-1"> Nama </label>
+				<label class="col-sm-3 control-label no-padding-right" for="form-field-1"> NIS </label>
 				<div class="col-sm-9">
-					<input type="text" id="form-field-1" placeholder="Nama Murid" class="col-xs-10 col-sm-5" />
+					<input type="text" id="form-field-1" name="nis" placeholder="Nomor NIS" class="col-xs-10 col-sm-5" />
+				</div>
+			</div>
+			<!-- nisn -->
+			<div class="form-group">
+				<label class="col-sm-3 control-label no-padding-right" for="form-field-1"> NISN </label>
+				<div class="col-sm-9">
+					<input type="text" id="form-field-1" name="nisn" placeholder="Nomor NISN" class="col-xs-10 col-sm-5" />
 				</div>
 			</div>
 			<!-- nama -->
 			<div class="form-group">
-				<label class="col-sm-3 control-label no-padding-right" for="form-field-1">  </label>
+				<label class="col-sm-3 control-label no-padding-right" for="form-field-1"> Nama </label>
 				<div class="col-sm-9">
-					<input type="text" id="form-field-1" placeholder="nama barang.." class="col-xs-10 col-sm-5" />
+					<input type="text" id="form-field-1" name="name" placeholder="Nama Murid" class="col-xs-10 col-sm-5" />
 				</div>
 			</div>
-			<!-- harga -->
+			<!-- tempat lahir -->
 			<div class="form-group">
-				<label class="col-sm-3 control-label no-padding-right" for="form-field-1"> Harga Barang </label>
+				<label class="col-sm-3 control-label no-padding-right" for="form-field-1"> Tempat Lahir </label>
 				<div class="col-sm-9">
-					<input type="text" id="form-field-1" placeholder="harga barang" class="col-xs-10 col-sm-5" />
+					<input type="text" id="form-field-1" name="place_of_birth" placeholder="Tempat Lahir" class="col-xs-10 col-sm-5" />
 				</div>
 			</div>
-			<!-- kategori -->
+			<!-- tanggal lahir -->
 			<div class="form-group">
-				<label class="col-sm-3 control-label no-padding-right" for="form-field-1"> Kategori </label>
+				<label class="col-sm-3 control-label no-padding-right" for="form-field-1"> Tanggal Lahir </label>
 				<div class="col-sm-9">
-					<input type="text" id="form-field-1" placeholder="kategori" class="col-xs-10 col-sm-5" />
+					<input type="text" id="form-field-1" name="date_of_birth" placeholder="Tanggal Lahir" class="col-xs-10 col-sm-5" />
+				</div>
+			</div>
+			<!-- agama -->
+			<div class="form-group">
+				<label class="col-sm-3 control-label no-padding-right" for="form-field-1"> Agama </label>
+				<div class="col-sm-9">
+					<input type="text" id="form-field-1" name="religion" placeholder="Agama" class="col-xs-10 col-sm-5" />
+				</div>
+			</div>
+			<!-- alamat -->
+			<div class="form-group">
+				<label class="col-sm-3 control-label no-padding-right" for="form-field-1"> Alamat </label>
+				<div class="col-sm-9">
+					<input type="text" id="form-field-1" name="address" placeholder="Alamat" class="col-xs-10 col-sm-5" />
+				</div>
+			</div>
+			<!-- jenis kelamin -->
+			<div class="form-group">
+				<label class="col-sm-3 control-label no-padding-right" for="form-field-1"> Jenis Kelamin </label>
+				<div class="col-sm-9">
+					<input type="text" id="form-field-1" name="gender" placeholder="Jenis Kelamin" class="col-xs-10 col-sm-5" />
+				</div>
+			</div>
+			<!-- nama wali murid -->
+			<div class="form-group">
+				<label class="col-sm-3 control-label no-padding-right" for="form-field-1"> Nama Wali Murid </label>
+				<div class="col-sm-9">
+					<input type="text" id="form-field-1" name="name_student_guardian" placeholder="Nama Wali Murid" class="col-xs-10 col-sm-5" />
+				</div>
+			</div>
+			<!-- status wali murid -->
+			<div class="form-group">
+				<label class="col-sm-3 control-label no-padding-right" for="form-field-1"> Status Wali Murid </label>
+				<div class="col-sm-9">
+					<input type="text" id="form-field-1" name="status_student_guardian" placeholder="Status Wali Murid" class="col-xs-10 col-sm-5" />
 				</div>
 			</div>
 			<div class="space-4"></div>
