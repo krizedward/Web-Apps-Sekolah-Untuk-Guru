@@ -39,7 +39,39 @@ class StudentController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $this->validate($request, [
+            'nis' => 'required',
+            'nisn' => 'required',
+            'name' => 'required',
+            'place_of_birth' => 'required',
+            'date_of_birth' => 'required',
+            'religion' => 'required',
+            'address' => 'required',
+            'gender' => 'required',
+            'name_student_guardian' => 'required',
+            'status_student_guardian' => 'required',
+            // 'photo_student' => 'required',
+        ]);
+
+        Student::create([
+            "class_id" => '1',
+            "teacher_id" => '1',
+            "nis" => $request->nis,
+            "nis" => $request->nis,
+            "nisn" => $request->nisn,
+            "name" => $request->name,
+            "place_of_birth" => $request->place_of_birth,
+            "date_of_birth" => $request->date_of_birth,
+            "religion" => $request->religion,
+            "address" => $request->address,
+            "gender" => $request->gender,
+            "name_student_guardian" => $request->name_student_guardian,
+            "status_student_guardian" => $request->status_student_guardian,
+            "photo_student" => "photoStudent/images.jpg",
+        ]);
+
+        // return view('student.index');
+        return redirect()->back();
     }
 
     /**

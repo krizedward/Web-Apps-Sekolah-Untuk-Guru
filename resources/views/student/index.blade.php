@@ -1,5 +1,7 @@
 @extends('layouts.ace')
 
+@section('judul','Tabel Murid')
+
 @section('breadcrumbs')
 <div class="breadcrumbs ace-save-state" id="breadcrumbs">
 	<ul class="breadcrumb">
